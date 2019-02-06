@@ -3,7 +3,7 @@
 
 ans=0
 
-i= int(input("Enter the Positive integer:"))
+i = int(input("Enter the Positive integer:"))
 
 while i>0:
     ans= ans+i
