@@ -5,9 +5,9 @@ Programming and Scripting at GMIT.@Freeha
 ## What each File contains
 1. **sumupto.py** contains my solution for  problem 1 in problem set.<br />
     *It ask user to input any positive integer and outputs the sum of all numbers between one and that number.*
-2.  **python begins-with-t.py** contains my solution for  problem 2 in problem set.<br />
+2.  **begins-with-t.py** contains my solution for  problem 2 in problem set.<br />
     *It displays whether or not today is a day that begins with the letter T.*
-3. **python divisors.py** contains my solution for  problem 3 in problem set<br />
+3. **divisors.py** contains my solution for  problem 3 in problem set<br />
     *It prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.*
 4. **collatz.py** contains my solution for  problem 4 in problem set.<br />
 *It asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value bytakingthecurrentvalueand,ifitiseven,divideitbytwo,butifitisodd,multiply it by three and add one.*

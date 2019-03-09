@@ -2,12 +2,17 @@
 #$ python secondstring.py
 #Please enter a sentence: The quick brown fox jumps over the lazy dog.
 #The brown jumps the dog
-message = input("Please enter a sentance:")
+#@ Freha
 
+# Input a message
+message = input("Please enter a sentance:")
+#split the message into words get list of words
 words = message.split()
+
+# get the numbers of words
 length = len(message.split())
 
-#print(length)
+#print the every second word start from 0 to length increment by 2
 for x in range (0,length,2):
    
-    print(words[x])
+    print(words[x], end=" ")
