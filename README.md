@@ -1,10 +1,11 @@
 # problemset
+
 This repositery contains my solution to the problem set 2019 for the Module
 Programming and Scripting at GMIT.@Freeha
 
 ## What each File contains
 1. **sumupto.py** contains my solution for  problem 1 in problem set.<br />
-    *It ask user to input any positive integer and outputs the sum of all numbers between one and that number.*
+    *It ask user to input any positive integer and outputs the sum of all numbers between one and that number. first in program it check the input to make sure number is positive (refernce:https://stackoverflow.com/a/23294659), if valid input it call the function sum and pass this input as an argument that fuction use while loop to calculate sum and return that sum value that  is printed   *
 2.  **begins-with-t.py** contains my solution for  problem 2 in problem set.<br />
     *It displays whether or not today is a day that begins with the letter T.*
 3. **divisors.py** contains my solution for  problem 3 in problem set<br />
