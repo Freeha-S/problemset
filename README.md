@@ -24,7 +24,7 @@ Programming and Scripting at GMIT.@Freha
         <p>*It takes a user input string and outputs every second word. in this program split() method is used and list of words is assigned to words variable. The split() method splits a string into a list.You can specify the separator, default separator is any whitespace. len() method is used to get the length of list and as  index of list start from 0 so use  for loop to print 0,2,4,6... index elements of words list*</p>
  ---     
 7. **squareroot.py** contains my solution for  problem 7 in problem set.<br />
-        <p>*It takes a positive ﬂoating point number as input and outputs an approximation of its square root.*</p>
+        <p>*It takes a positive ﬂoating point number as input and outputs an approximation of its square root. In this programme first check for valid input and than math.sqrt(num) method is used to get square root to use this method first math module is imported and round function to round the result to 1 decimal place. The built-in Python function round() takes in two numbers, one to be rounded, and one that specifies the number of decimal places to include.*</p>
 ---        
 8. **datetime.py** contains my solution for  problem 8 in problem set.<br />
         <p>*It outputs today’s dateand time in the format“Monday,January 10 2019 at 1:15pm”.*</p>
