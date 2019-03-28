@@ -9,7 +9,7 @@ Programming and Scripting at GMIT.@Freha
         <p>*It ask user to input any positive integer and outputs the sum of all numbers between one and that number. first in program it check the input to make sure number is positive (refernce:https://stackoverflow.com/a/23294659), if valid input it call the function sum and pass this input as an argument that fuction use while loop to calculate sum and return that sum value that  is printed* </p>
  ---       
 2.  **begins-with-t.py** contains my solution for  problem 2 in problem set.<br />
-        <p>*It displays whether or not today is a day that begins with the letter T.* </p>
+        <p>*It displays whether or not today is a day that begins with the letter T. datetime module is imported The datetime module supplies classes for manipulating dates and times. method datetime.today().weekday() Return the day of the week as an integer, where Monday is 0 and Sunday is 6, of the current local datetime. that value was assigned to a variable and as only days 1 (Tuesday) and 3(Thursday) are the days started with T for if - else statement is used to print output * </p>
  ---      
 3. **divisors.py** contains my solution for  problem 3 in problem set<br />
         <p>*It prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.* </p>
