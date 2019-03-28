@@ -16,7 +16,7 @@ Programming and Scripting at GMIT.@Freha
         print the number if both conditions met * </p>
 ---       
 4. **collatz.py** contains my solution for  problem 4 in problem set.<br />
-         <p>*It asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and,if it is even,divide it by two,but if it is odd, multiply it by three and add one.* </p>
+         <p>*It asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and,if it is even,divide it by two,but if it is odd, multiply it by three and add one. In this programme first ask user to input number use while loop and conditions to check if its valid input than print the input and use while loop  to iterate and do the calculation required in problem to check if the number is odd or even use remainder of divide by 2 as remainder will be 0 if number is even and here end=" " in print is used to print the out put on same line </p>
  ---       
 5. **primes.py** contains my solution for  problem 5 in problem set.<br />
         <p>*It asks the user to input a positive integer and tells the user whether or not the number is a prime.*</p>
