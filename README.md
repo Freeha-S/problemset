@@ -12,7 +12,8 @@ Programming and Scripting at GMIT.@Freha
         <p>*It displays whether or not today is a day that begins with the letter T. datetime module is imported The datetime module supplies classes for manipulating dates and times. method datetime.today().weekday() Return the day of the week as an integer, where Monday is 0 and Sunday is 6, of the current local datetime. that value was assigned to a variable and as only days 1 (Tuesday) and 3(Thursday) are the days started with T for if - else statement is used to print output * </p>
  ---      
 3. **divisors.py** contains my solution for  problem 3 in problem set<br />
-        <p>*It prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.* </p>
+        <p>*It prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12. In this programme first initialize a variable with value 1000 than use while loop to increment the value of i by 1 in each iteration and use if statement to check if number is divisible by 6 and not divisible by 12 use the % operator is used to get remainder if remainder is 0 its mean it is divisible otherwise not divisible
+        print the number if both conditions met * </p>
 ---       
 4. **collatz.py** contains my solution for  problem 4 in problem set.<br />
          <p>*It asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and,if it is even,divide it by two,but if it is odd, multiply it by three and add one.* </p>
