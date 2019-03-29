@@ -41,7 +41,7 @@ Programming and Scripting at GMIT.@Freha
         
  ---     
 9. **second.py** contains my solution for  problem 9 in problem set.<br />
-         <p>*It reads in a textﬁle and outputs every secondline. This program takes the ﬁlename from an argument on the command line.*</p>
+         <p>*It reads in a textﬁle and outputs every secondline. This program takes the ﬁlename from an argument on the command line. reference https://stackoverflow.com/a/33404310  import sys module to get command line argument *</p>
  ---      
 10. **plot.py** contains my solution for  problem 10 in problem set.<br />
           <p>*It displays a plot of the functions x, x square and 2 raise to power x in the range [0,4]. use matplotlib to plot the graph*</p>
