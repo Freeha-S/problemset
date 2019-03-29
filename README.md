@@ -27,7 +27,18 @@ Programming and Scripting at GMIT.@Freha
         <p>*It takes a positive ﬂoating point number as input and outputs an approximation of its square root. In this programme first check for valid input and than math.sqrt(num) method is used to get square root to use this method first math module is imported and round function to round the result to 1 decimal place. The built-in Python function round() takes in two numbers, one to be rounded, and one that specifies the number of decimal places to include.*</p>
 ---        
 8. **datetime.py** contains my solution for  problem 8 in problem set.<br />
-        <p>*It outputs today’s dateand time in the format“Monday,January 10 2019 at 1:15pm”.*</p>
+        <p>*It outputs today’s dateand time in the format“Monday,January 10 2019 at 1:15pm”. To print the datetime in a specific format strftime() method is used. use the if -elif-else to manage the st,nd,rd and th in string*</p>
+        
+         The strftime(format) method is used , to create a string representing the time under the control of an explicit format string. 
+          - %A Weekday as locale’s full name.
+          - %B Month as locale’s full name
+          - %d Day of the month as a zero-padded decimal number
+          - %Y Year with century as a decimal number
+          - %I Hour (12-hour clock) as a zero-padded decimal number.
+          - %M Minutes as a zero-padded decimal number
+          - %p Locale’s equivalent of either AM or PM.here 
+
+        
  ---     
 9. **second.py** contains my solution for  problem 9 in problem set.<br />
          <p>*It reads in a textﬁle and outputs every secondline. This program takes the ﬁlename from an argument on the command line.*</p>
