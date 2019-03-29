@@ -44,6 +44,18 @@ Programming and Scripting at GMIT.@Freha
          <p>*It reads in a textﬁle and outputs every secondline. This program takes the ﬁlename from an argument on the command line. reference https://stackoverflow.com/a/33404310  import sys module to get command line argument *</p>
  ---      
 10. **plot.py** contains my solution for  problem 10 in problem set.<br />
-          <p>*It displays a plot of the functions x, x square and 2 raise to power x in the range [0,4]. use matplotlib to plot the graph*</p>
+          <p>*It displays a plot of the functions x, x square and 2 raise to power x in the range [0,4]. use matplotlib to plot the graph. Import matplotlib.pyplot reference > https://matplotlib.org/tutorials/introductory/pyplot.html create a simple graph but i also found a simple method using numphy *</p>
+          
+                import numpy as np
+                import matplotlib.pyplot as plt
+
+                # evenly sampled x value 0 to 4 at intervals 1
+                x = np.arange(0, 4, 1)
+
+                # red dashes, blue squares and green triangles
+                plt.plot(x, x, 'r--', x, x**2, 'bs', x, 2**x, 'g^')
+                plt.show()
         
 ## Reference
+https://matplotlib.org/tutorials/introductory/pyplot.html
+https://matplotlib.org/gallery/pyplots/pyplot_three.html#sphx-glr-gallery-pyplots-pyplot-three-py
